@@ -1,3 +1,4 @@
+import React from 'react';
 import NavLinks from './NavLinks';
 import logo from '../assets/AlPunto_block.svg';
 import './NavBar.css';
