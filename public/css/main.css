@@ -610,16 +610,10 @@ Footer
     border-top: 1px solid #e1e4e9;
     padding-bottom: 1.5em;
     padding-top: 1.5em;
-    text-align: center;
 }
 
 .page-footer p {
     margin-bottom: 0;
-}
-
-.footer-logo,
-.built-link {
-    color: #645cff;
 }
 
 

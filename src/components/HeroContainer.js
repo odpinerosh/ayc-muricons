@@ -18,9 +18,9 @@ const HeroContainer = () => {
                     </div>
                     <div className='hero-action'>
                     
-                        <a href='#' className='btn'>Más información</a>
+                        <a href='' className='btn'>Más información</a>
                     
-                        <a href='#' className='btn btn-hipster'>Contacto</a>
+                        <a href='' className='btn btn-hipster'>Contacto</a>
                     </div>
                 </div>
             </div>
