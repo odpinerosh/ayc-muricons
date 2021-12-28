@@ -84,6 +84,7 @@ p {
     margin-bottom: 2rem;
     max-width: 40em;
     font-family: var(--bodyFont);
+   
 }
 
 h2,
@@ -345,6 +346,14 @@ Navbar
     max-width: 1120px;
 }
 
+.nav-center a {
+    font-size: 1.5rem;
+}
+
+.nav-center a img {
+    width: 30px;
+}
+
 .nav-header {
     display: flex;
     justify-content: space-evenly;
@@ -556,8 +565,13 @@ Features
 }
 
 .feat-container h5 {
-    font-weight: bold;
+    font-weight: 800;
+    
     text-transform: none;
+}
+
+.feat-container p {
+    font-size: 1.1rem;
 }
 
 .feat-container a {
@@ -614,6 +628,20 @@ Footer
 
 .page-footer p {
     margin-bottom: 0;
+}
+
+.page-footer .footer-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+
+.footer-container .footer-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
 }
 
 

@@ -12,10 +12,9 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className='footer-copy'>
-                    <span>
-                        2021 © AyC Murillo Constructores - Bogotá, Colombia. / 
-                        <a href="https://odpinerosh.github.io/odph" target="_blank">{'{odph}'}</a>
-                    </span>
+                    <p>2021 © AyC Murillo Constructores</p>
+                    <p>Bogotá, Colombia.</p>    
+                    <a href="https://odpinerosh.github.io/odph" target="_blank">{`{odph}`}</a>
                 </div>
             </div>
         </footer>
