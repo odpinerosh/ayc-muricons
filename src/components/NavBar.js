@@ -44,7 +44,7 @@ const NavBar = () => {
                     +57 (320) 217-2911
                     <img src={whats} className="whats-logo" alt="Whatsapp Logo" />
                 </a>
-                <NavLinks padre="menu-navBar" />
+                <NavLinks padre="menu-navBar"/>
             </div>
         </nav>
     );

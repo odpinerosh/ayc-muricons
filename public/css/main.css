@@ -370,7 +370,9 @@ Navbar
 }
 
 .nav-btn {
-    padding: 0.15rem 0.75rem;
+    /*padding: 0.15rem 0.75rem;*/
+    display: flex;
+
     background-color: transparent;
 }
 
@@ -473,7 +475,8 @@ Page
     background: url('/images/diagonal-lines.svg');
     margin: 0 auto;
     /*max-width: 1120px;*/
-    min-height: calc(100vh - (6rem + 4rem));
+    /*min-height: calc(100vh - (6rem + 4rem));*/
+    display: flex;
     width: 100vw;
 }
 
@@ -481,7 +484,7 @@ Page
     opacity: 0.9;
     background-color: var(--hero-blue);
     border-radius: 5px;
-    height: 100vh;
+    height: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -489,7 +492,7 @@ Page
 
 .hero-container {
     align-items: center;
-    position: relative;
+    padding: 1rem;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -525,7 +528,7 @@ Page
 }
 
 .hero-img img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -611,6 +614,34 @@ Cuente con Nosotros
     line-height: 1.625;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+}
+
+.banner-bg-blue {
+    background-color: var(--hero-blue);
+}
+
+.banner-color-white {
+    color: #fff;
+}
+
+.banner-p {
+    padding: 0 2rem;
+}
+
+/*
+=============== 
+About
+===============
+*/
+
+.section-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-about p {
+    width: 90vw;
 }
 
 

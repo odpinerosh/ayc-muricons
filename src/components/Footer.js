@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className='footer-copy'>
                     <p>2021 © AyC Murillo Constructores</p>
                     <p>Bogotá, Colombia.</p>    
-                    <a href="https://odpinerosh.github.io/odph" target="_blank">{`{odph}`}</a>
+                    <a href="https://odpinerosh.github.io/odph" rel="noopener noreferrer" target="_blank">{`{odph}`}</a>
                 </div>
             </div>
         </footer>

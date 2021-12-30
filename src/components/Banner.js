@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Banner = () => {
+const Banner = (props) => {
 
     return (
-        <section className='section-banner'>
-            <h4 className='banner-title'>¡Cuente con nosotros!</h4>
-            <p className='banner-legend'>Vamos a trabajar juntos haciendo realidad sus proyectos de construcción y mantenimiento.</p>
-            <button className='btn'>Contacto</button>
+        <section className={props.father==='App' ? 'section-banner' : 'section-banner banner-bg-blue'}>
+            <h4 className={props.father==='App' ? 'banner-title' : 'banner-title banner-color-white'}>¡Cuente con nosotros!</h4>
+            <p className={props.father==='App' ? 'banner-legend' : 'banner-legend banner-color-white banner-p'}>Vamos a trabajar juntos haciendo realidad sus proyectos de construcción y mantenimiento.</p>
+            <a href='https://docs.google.com/forms/d/1L2qgt5XWoc4Dvs24CMhW22qKeDDuWsZgmOr3HvNt2aA/edit?usp=sharing' className='btn btn-hipster' target="_blank" rel="noopener noreferrer" className={props.father==='App' ? 'btn' : 'btn btn-hipster'}>Contacto</a>
         </section>
     );
 

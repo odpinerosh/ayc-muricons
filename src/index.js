@@ -1,21 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import App from './App';
+import About from './components/About';
 import './index.css';
-import NavBar from './components/NavBar';
-import OverLay from './components/OverLay';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Banner from './components/Banner';
-import Footer from './components/Footer'
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <OverLay />
-    <NavBar />
-    <Hero />
-    <Features />
-    <Banner />
-    <Footer />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="about" element={<About />} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );

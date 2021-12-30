@@ -11,16 +11,13 @@ const HeroContainer = () => {
                 </div>
                 <div className='hero-elements'>
                     <div className='hero-title'>
-                        <h1>AyC Murillo Contructores</h1>
+                        <h1>AyC Murillo Constructores</h1>
                     </div>
                     <div className='hero-desc'>
                         <p>Ofrecemos nuestros servicios especializados en construcción, mantenimiento, reparaciones, instalaciones y ornamentación.</p>
                     </div>
                     <div className='hero-action'>
-                    
-                        <a href='' className='btn'>Más información</a>
-                    
-                        <a href='' className='btn btn-hipster'>Contacto</a>
+                        <a href='https://docs.google.com/forms/d/1L2qgt5XWoc4Dvs24CMhW22qKeDDuWsZgmOr3HvNt2aA/edit?usp=sharing' className='btn btn-hipster' target="_blank" rel="noopener noreferrer" >Contacto</a>
                     </div>
                 </div>
             </div>
