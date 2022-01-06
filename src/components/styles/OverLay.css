@@ -1,0 +1,31 @@
+.over-lay {
+    position: fixed;
+    left: 100vw;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background: aliceblue;
+    opacity: 0.95;
+    transition: 0.4s ease-in-out all;
+}
+
+.ol-show {
+    left: 0;
+}
+
+.ol-nav-links {
+    width: 90vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .over-lay {
+        left: 100vw;
+    }
+
+}

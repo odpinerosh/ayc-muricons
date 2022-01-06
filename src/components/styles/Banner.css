@@ -1,0 +1,38 @@
+.section-banner {
+    margin: 2rem auto;
+    background-color: #ececec;
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.banner-title {
+    font-weight: bolder;
+    line-height: 1.625;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.banner-legend {
+    color: #536171;
+    line-height: 1.625;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.banner-bg-blue {
+    background-color: var(--hero-blue);
+}
+
+.banner-color-white {
+    color: #fff;
+}
+
+.banner-p {
+    padding: 0 2rem;
+}

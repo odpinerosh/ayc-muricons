@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroContainer from './HeroContainer';
+import './styles/Hero.css';
 
 const Hero = () => {
 

@@ -1,0 +1,32 @@
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out all;
+}
+
+
+.nav-links .whats-logo {
+    width: 25px;
+}
+
+.hide-menu {
+    display: none;
+}
+
+.show-links {
+    height: auto;
+}
+
+@media screen and (min-width: 800px) {
+
+    .nav-links {
+        align-items: center;
+        flex-direction: row;
+        height: auto !important;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import whats from '../assets/whatsapp.svg';
+import './styles/Footer.css';
 
 const Footer = () => {
     return(

@@ -1,5 +1,6 @@
 import React from "react";
 import NavLinks from './NavLinks';
+import './styles/OverLay.css';
 
 const OverLay = () => {
 
@@ -15,12 +16,12 @@ const OverLay = () => {
     const clickClose = () => {
         const overLay = getElement('.over-lay');
 
-        const menuNavBar = getElement('#menu-navBar');
-        const menuOverLay = getElement('#menu-overLay');
+        /*const menuNavBar = getElement('#menu-navBar');*/
+        /*const menuOverLay = getElement('#menu-overLay');*/
         
         overLay.classList.toggle('ol-show');
-        menuNavBar.classList.toggle('hide-menu');        
-        menuOverLay.classList.toggle('show-links');
+        /*menuNavBar.classList.toggle('hide-menu');  */      
+        /*menuOverLay.classList.toggle('show-links');*/
     }
 
 

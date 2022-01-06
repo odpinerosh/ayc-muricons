@@ -1,5 +1,6 @@
 import React from 'react';
 import BuildSvg from '../assets/build.svg';
+import './styles/HeroContainer.css';
 
 const HeroContainer = () => {
     return (

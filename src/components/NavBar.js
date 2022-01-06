@@ -2,7 +2,7 @@ import React from 'react';
 import NavLinks from './NavLinks';
 import logo from '../assets/AlPunto_block.svg';
 import whats from '../assets/whatsapp.svg';
-import './NavBar.css';
+import './styles/NavBar.css';
 
 const NavBar = () => {
 
@@ -21,12 +21,12 @@ const NavBar = () => {
     const clickMenu = () => {
         const overLay = getElement('.over-lay');
 
-        const menuNavBar = getElement('#menu-navBar');
-        const menuOverLay = getElement('#menu-overLay');
+        /*const menuNavBar = getElement('#menu-navBar');*/
+        /*const menuOverLay = getElement('#menu-overLay');*/
         
         overLay.classList.toggle('ol-show');
-        menuNavBar.classList.toggle('hide-menu');        
-        menuOverLay.classList.toggle('show-links');
+        /*menuNavBar.classList.toggle('hide-menu'); */       
+        /*menuOverLay.classList.toggle('show-links');*/
     }
     
     

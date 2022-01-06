@@ -1,0 +1,16 @@
+.section-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-about p {
+    width: 90vw;
+}
+
+.about-title {
+    font-weight: bolder;
+    line-height: 1.625;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}

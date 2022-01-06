@@ -1,6 +1,7 @@
 import React from 'react';
 import SingleFeat from './SingleFeat';
 import arrFeatures from '../arrFeatures';
+import './styles/Features.css';
 
 const Features = () => {
 
