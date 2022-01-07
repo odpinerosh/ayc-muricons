@@ -41,8 +41,24 @@
 }
 
 @media screen and (min-width:768px) {
-    .hero-text h1 {
-        font-size: 4rem;
-        margin-bottom: 0;
+    
+    .hero-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "elements image";
     }
+    
+    .hero-elements {
+        grid-area: elements;
+    }
+
+    .hero-img {
+        grid-area: image;
+    }
+
+        .hero-desc {
+            text-align: left;
+        }
+    
 }

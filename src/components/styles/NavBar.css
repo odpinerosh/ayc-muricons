@@ -11,7 +11,11 @@
 }
 
 .nav-center a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.nav-center a:visited {
+    color: #0f172a;
 }
 
 .nav-center a img {
@@ -20,9 +24,11 @@
 
 .nav-header {
     display: flex;
+    border-bottom: solid 1px gray;
     justify-content: space-evenly;
     align-items: baseline;
     width: auto;
+    margin-bottom: 0.5rem;
 }
 
 .nav-header .ayc-logo {
@@ -47,7 +53,6 @@
 }
 
 
-
 .nav-btn {
     display: flex;
     background-color: transparent;
@@ -64,14 +69,18 @@
     .nav-bar {
         height: 6rem;
     }
+    
     .nav-center {
         display: flex;
         align-items: center;
     }
+
     .nav-header {
-        padding: 0;
+        padding-bottom: 0.5rem;
         margin-right: 2rem;
+      
         height: auto;
+        
     }
 
     #menu-navBar {
