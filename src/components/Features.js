@@ -8,13 +8,13 @@ const Features = () => {
     return (
         <section className='section-features'>
             <h2 className='features-title'>Servicios</h2>
-            <div className='features-container'>
+            <article className='features-container'>
                 {
                     arrFeatures.map(option => (
                         <SingleFeat title={option.title} asset={option.asset} legend={option.legend} />
                     ))
                 }
-            </div>
+            </article>
         </section>
     );
 

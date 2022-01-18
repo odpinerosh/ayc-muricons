@@ -70,14 +70,14 @@ body {
     /*overflow: hidden;*/
 }
 
-article {
+/*article {
     display: none;
 }
 
 article:target {
     /* Show article */
-    display: block;
-}
+/*    display: block;
+}*/
 
 p {
     margin-top: .5rem;

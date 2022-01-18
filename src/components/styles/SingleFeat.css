@@ -1,0 +1,34 @@
+.feat-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .feat-image {
+        height: auto;
+        margin-bottom: 1rem;
+        width: 90vw;
+    }
+
+    .feat-desc {
+        width: 90vw;
+    }
+
+
+@media screen and (min-width: 800px) {
+
+    .feat-container {
+        display: flex;
+    }    
+
+        .feat-image {
+            width: 40vw;
+        }
+
+        .feat-desc {
+            width: 40vw;
+        }
+ 
+}

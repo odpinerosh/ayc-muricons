@@ -13,23 +13,13 @@
     width: 90vw;
 }
 
-.feat-container img {
-    height: auto;
-    margin-bottom: 1rem;
-    width: 90vw;
-}
+@media screen and (min-width: 800px) {
 
-.feat-container h5 {
-    font-weight: 800;
-    
-    text-transform: none;
-}
+    .features-container div:nth-child(odd) {
+        flex-direction: row
+    }
 
-.feat-container p {
-    font-size: 1.1rem;
-}
-
-.feat-container a {
-    border: 2px solid #28aaff;
-    margin: 3rem auto;
+    .features-container div:nth-child(even) {
+        flex-direction: row-reverse;
+    }
 }
