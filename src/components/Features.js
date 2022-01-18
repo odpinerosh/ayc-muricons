@@ -11,7 +11,7 @@ const Features = () => {
             <article className='features-container'>
                 {
                     arrFeatures.map(option => (
-                        <SingleFeat title={option.title} asset={option.asset} legend={option.legend} />
+                        <SingleFeat key={option.key} title={option.title} asset={option.asset} legend={option.legend} />
                     ))
                 }
             </article>
