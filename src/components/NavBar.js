@@ -37,7 +37,7 @@ const NavBar = () => {
                 <div className='nav-logo-cont'>
                     <header className="nav-header">
                         <img src={logo} className="ayc-logo" alt="AyC Logo" />
-                        <button className="btn nav-btn" id="btnMenu" onClick={clickMenu}>
+                        <button aria-label="Menu" className="btn nav-btn" id="btnMenu" onClick={clickMenu}>
                             <svg className="icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 13h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 7h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 19h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1z" /></svg>
                         </button>
                     </header>
