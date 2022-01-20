@@ -3,7 +3,7 @@
     background-repeat: repeat;
     background: url('/images/diagonal-lines.svg');
     margin: 0 auto;
-    min-height: calc(100vh - (6rem + 4rem));
+    min-height: calc(90vh - (6rem + 4rem));
     display: flex;
     width: 100vw;
 }

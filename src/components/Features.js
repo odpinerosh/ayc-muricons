@@ -7,7 +7,7 @@ const Features = () => {
 
     return (
         <section className='section-features'>
-            <h2 className='features-title'>Servicios</h2>
+            <h2 className='features-title'><strong>Servicios</strong></h2>
             <article className='features-container'>
                 {
                     arrFeatures.map(option => (

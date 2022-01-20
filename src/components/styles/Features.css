@@ -3,11 +3,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    margin: 3rem 0;
 }
 
-.section-features h2 {
+.section-features h3 {
     margin-top: 1.2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: none;
 }
 
